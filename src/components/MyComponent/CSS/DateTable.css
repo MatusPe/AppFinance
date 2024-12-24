@@ -5,4 +5,5 @@
 
 .ag-theme-quartz-dark .ag-root-wrapper {
     border: none; /* No external wrapper border */
+    border:none;
 }
