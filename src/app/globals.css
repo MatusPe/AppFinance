@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 142 86% 28%;
+    --primary-foreground: 356 29% 98%;
+    --secondary: 240 4.8% 95.9%;
+
+
+
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 0 0% 0%;
+    --muted-foreground: 240 4.8% 95.9%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 98%;
+
+    --input: 240 5.9% 90%;
+    --button: 240 5.9% 90%;
+    --ring: 142 86% 28%;
+    --chart-1: 190 100% 40%; /* Neon Blue */
+    --chart-2: 200 100% 50%; /* Neon Greenish Blue */
+    --chart-3: 240 100% 50%; /* Neon Purple */
+    --chart-4: 280 100% 45%; /* Neon Pink */
+    --chart-5: 160 100% 45%; /* Neon Teal */
+    --chart-6: 120 100% 50%; /* Neon Green */
+    --chart-7: 220 100% 60%; /* Neon Electric Blue */
+    --chart-8: 320 100% 50%; /* Neon Fuchsia */
+    --chart-9: 200 100% 45%; /* Neon Cyan */
+    --chart-10: 270 100% 50%; /* Neon Violet */
+    --chart-11: 210 100% 45%; /* Neon Sky Blue */
+    --chart-12: 300 100% 45%; /* Neon Magenta */
+
+    --neon-green: 120 100% 50%;
+    --neon-violet: 280 100% 50%;
+    --neon-cyan: 190 100% 50%;
+    --neon-blue: 220 100% 50%;
+    --neon-red: 0 100% 50%;
+
+  }
+
+  .dark {
+    --button: 240 5.9% 90%;
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 142 86% 28%;
+    --primary-foreground: 356 29% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 142 86% 28%;
+    --chart-1: 142 88% 28%;
+    --chart-2: 139 65% 20%;
+    --chart-3: 140 74% 24%;
+    --chart-4: 137 55% 15%;
+    --chart-5: 141 40% 9%;
+  }
+}
+
